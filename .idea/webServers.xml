@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8a17383f-841d-44c3-bcec-3bc457577937" name="t-com-00 tcom" url="http://188.225.87.20">
+        <fileTransfer host="188.225.87.20" port="3313" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="3313" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="da6cc9c3-6efb-4de3-b706-f8681cf1e59f" name="t-com-dev tcomapp" url="http://89.223.125.82">
+        <fileTransfer host="89.223.125.82" port="3313" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="3313" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
